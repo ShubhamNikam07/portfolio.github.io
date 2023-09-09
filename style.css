@@ -184,7 +184,7 @@ z-index:-1;
 }
 
 .user-image{
-width:90%%;
+width:90%;
 padding:10%;
 filter:grayscale(1);
 transition:all 1s;
@@ -221,7 +221,8 @@ height:10%;
 }
 
 .icon-dots{
-bottom:-1;
+
+bottom:1%;
 ANIMATION-NAME:dot-mov;
 animation-duration:7s;
 animation-iteration-count:infinite;
@@ -253,21 +254,22 @@ animation:cube-mov 7s  infinite;
 @keyframes cube-mov{
 
 	0%{
-		transform:rotateY(0deg) translateY(-5px);
+		transform: rotateY(0deg) translate(0px);
 	}
 	
 	50%{
-		transform:rotateY(180deg) translateY(5px);
+		transform:rotateY(180deg) translate(-12px);
 	}
 	
 	100%{
-		transform:rotateY(360deg) translateY(-5px);
+		transform:rotateY(360deg) translate(0px);
 	}
 }
 
 .icon-circle{
-bottom:-1px;
-right:5px;
+position:absolute;
+bottom:0%;
+left:50%;
 animation-name:circle-mov;
 animation-duration:7s;
 animation-iteration-count:infinite;
@@ -314,7 +316,7 @@ animation:line-mov 7s  linear infinite;
 
 .icon-plus{
 top:27%;
-right:0px;
+right:-60%;
 transform:scale(0.5);
 animation:plus-mov 7s ease-in-out infinite;
 }
@@ -326,7 +328,7 @@ animation:plus-mov 7s ease-in-out infinite;
 	
 	}
 	50%{
-	transform:scale(0.8) translateX(20px);
+	transform:scale(0.8) translateX(15px);
 	}
 	100%{
 	transform:scale(0.5) translateX(0px);
