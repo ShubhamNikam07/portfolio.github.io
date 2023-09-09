@@ -812,9 +812,6 @@ width:35px;
 display:none;
 }
 
-.project-card:hover .project-content{
-display:none;
-}
 .skills-right img{
 	width:80%;
 }
@@ -866,6 +863,12 @@ animation:scaleimage 7s linear infinite;
 .icon-plus{
 visibility:hidden;
 }
+
+.project-card:hover::before{
+transform:scalex(0);
+z-index:-1;
+}
+
 
 }
 
