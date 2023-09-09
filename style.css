@@ -792,7 +792,21 @@ display:none;
 .project-card:hover .project-content{
 display:none;
 }
+.skills-right{
+	width:40%;
+}
+.skill-fade-text{
+	font-size:100px;
+	font-style:bold;
+	right:-25%;
+	bottom:-35%;
+	color:rgb(231,231,231);
+	user-select:none;
+	overflow-y:hidden;
+	display:inline;
+	transform: translate(-50%,-50%);
 
+}
 }
 
 
