@@ -96,7 +96,7 @@ position:absolute;
 user-select: none;
 font-size:7em;
 color:rgb(231,231,231);
-bottom:-10.2%;
+bottom:-9.5%;
 left:-5%;
 font:bold;
 transition:all 3s;
@@ -417,6 +417,8 @@ visibility:hidden;
 }
 .project-card:hover .project-number{
 visibility:visible;
+
+
 }
  
 .project-number-left{
@@ -500,14 +502,17 @@ transform:scale(1.05);
 
 #project1{
 margin-left:12%;
+background-image:url(image1.jpg);
 }
 
 #project2{
 margin-right:10%;
+background-image:url(image2.jpg);
 }
 
 #project3{
 margin-left:12%;
+background-image:url(image3.jpg);
 }
 
 #project4{
@@ -587,6 +592,7 @@ margin-right:10%;
 
 .skills-logo:hover{
 transform:scale(1.2);
+
 }
 
 
@@ -765,9 +771,8 @@ font-size:40px;
 width:100%;
 }
 .project-subheading{
-
 width:100%;
-
+color:black;
 }
 
 #project1{
@@ -777,6 +782,7 @@ margin-left:0;
 }
 
 #project2{
+
 justify-content:center;
 align-items:center;
 margin-left:0;
